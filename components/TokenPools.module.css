@@ -1,0 +1,29 @@
+
+.TableContainer {
+  border: 1px solid #ddd;
+  padding: 40px 50px 40px;
+  /* margin: 2px 0; */
+  width: 1000px;
+  height: 200px;
+  border: 1px rgb(39, 39, 40);
+  /* border-radius: 8px; */
+  box-shadow: 0 0 10px rgb(36, 35, 35);
+  min-width: 100%;
+  border-collapse: collapse;
+  overflow: auto;
+}
+
+.liquidity-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.liquidity-table td, .liquidity-table th {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: left;
+}
+
+.liquidity-table th {
+  background-color: #050505;
+}

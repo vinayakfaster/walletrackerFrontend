@@ -1,0 +1,51 @@
+ 
+  .tokenTable {
+    /* width: 10%;
+    width: 100px;
+
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-top: 10px; 
+    margin-right: 10px;  */
+    overflow: auto;
+  }
+  
+  .tokenTable th,
+  .tokenTable td {
+     /* padding: 8px; */
+    text-align: left; 
+  }
+  
+  .tokenTable th {
+    background-color: #1e1d1d; /* Background color for table header */
+  }
+  
+  .tokenTable tbody tr:nth-child(even) {
+    background-color: #171515; /* Alternate background color for even rows */
+  }
+  /* MutualToken.module.css */
+
+.dropdown {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 14px;
+  margin-right: 10000px;
+}
+
+.tokenTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tokenTable th, .tokenTable td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.tokenTable th {
+  background-color: #111010;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,45 @@
+.token_value_calculator_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 180px;
+    margin-right: -100px;
+    margin-top: -250px; */
+    padding: 22px;
+    border: 1px rgb(118, 124, 214);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(102, 102, 102);
+  }
+  
+
+  .input_container {
+    margin-right: 10px; /* Add some margin between the input and value containers */
+  }
+  
+  /* Add more specific styling if needed for the input */
+  .input_container label {
+    display: block;
+    margin-bottom: 5px; /* Add margin between label and input */
+  }
+  
+  .input_container input {
+    width: 80%;
+    /* padding: 8px; */
+    font-size: 14px;
+    /* Add any other styles as needed */
+  }
+
+  .input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .p {
+    margin: 0;
+  }
+  .container {
+    /* position: fixed; */
+    height: 1vw;
+    left: 25%;
+  }
