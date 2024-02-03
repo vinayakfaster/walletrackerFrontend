@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 import Header from "../components/header";
-import Showfav from "../components/showFav";
+import Showfav from "../components/ShowFav";
 import { WatchlistProvider } from "../components/WatchlistContext";
 
 export default function Token() {
